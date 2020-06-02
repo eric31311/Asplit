@@ -45,9 +45,6 @@ void Asplit(char *str, const char *token, vector <string> &sv, int count = 0){
 
 int main(){
     string a;
-    string b = "eric";
-    string c = "eriv";
-    cout << (b == c) << "\n";
     a = "It's the best day ever!";
     char *ca = &a[0];
     // char *p = strtok(msg, ",");
@@ -59,9 +56,15 @@ int main(){
         cout << sv[i] << "\n";
     }
     cout << "\n";
-    // Asplit(ca, " ", sv, 6);
-    // for(int i = 0; i < sv.size(); i++)
-    // {
-    //     cout << sv[i] << "\n";
-    // }
+    Asplit(ca, " ", sv, 2);
+    for(int i = 0; i < sv.size(); i++)
+    {
+        cout << sv[i] << "\n";
+    }
+    cout << "\n";
+    Asplit(ca, " ", sv, 6);
+    for(int i = 0; i < sv.size(); i++)
+    {
+        cout << sv[i] << "\n";
+    }
 }
