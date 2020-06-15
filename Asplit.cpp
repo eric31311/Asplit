@@ -4,8 +4,6 @@
 #include <vector>
 using namespace std;
 
-
-
 void Asplit(char *str, const char *token, vector <string> &sv, int count = 0){
     sv.clear();
     char *copystr = new char[strlen(str)+1];
@@ -43,28 +41,3 @@ void Asplit(char *str, const char *token, vector <string> &sv, int count = 0){
     return;
 }
 
-int main(){
-    string a;
-    a = "It's the best day ever!";
-    char *ca = &a[0];
-    // char *p = strtok(msg, ",");
-    // cout << p << "\n";
-    vector <string> sv;
-    Asplit(ca, "s", sv);
-    for(int i = 0; i < sv.size(); i++)
-    {
-        cout << sv[i] << "\n";
-    }
-    cout << "\n";
-    Asplit(ca, " ", sv, 2);
-    for(int i = 0; i < sv.size(); i++)
-    {
-        cout << sv[i] << "\n";
-    }
-    cout << "\n";
-    Asplit(ca, " ", sv, 6);
-    for(int i = 0; i < sv.size(); i++)
-    {
-        cout << sv[i] << "\n";
-    }
-}
