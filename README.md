@@ -30,18 +30,18 @@ int main(){
 ```
 
 Output should be:
-It's
-the
-best
-day
-ever!
-
-It's
-the
-best day ever!
-
-It's
-the
-best
-day
+It's  
+the  
+best  
+day  
+ever!  
+  
+It's  
+the  
+best day ever!  
+  
+It's  
+the  
+best  
+day  
 ever!
