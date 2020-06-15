@@ -29,7 +29,7 @@ int main(){
 }
 ```
 
-Output should be:
+Output should be:  
 It's  
 the  
 best  
