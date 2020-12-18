@@ -9,7 +9,7 @@ int main(){
     a = "It's the best day ever!";
     char *ca = &a[0];
     vector <string> sv;
-    Asplit(ca, "s", sv);
+    Asplit(ca, " ", sv);
     for(int i = 0; i < sv.size(); i++)
     {
         cout << sv[i] << "\n";
